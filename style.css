@@ -1,9 +1,27 @@
+html {
+	background-color: transparent;
+	border: 0;
+}
+
 body {
     font-size: 12px;
     font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
-    color:#564b47;  
     padding-left: 50px;
     padding-right: 20%;
+    background-repeat: repeat;
+
+    background-color: white;
+    border: 1px solid black;
+}
+
+body.dark {
+    background-image: url('resources/img/dark_background-tile.png');
+    color: grey;
+}
+
+body.lite {
+    color: #564b47;
+	background-image: url('resources/img/lite_background-tile.png');
 }
 
 body>header h1>a {
