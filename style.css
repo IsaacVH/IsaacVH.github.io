@@ -24,6 +24,15 @@ body.lite {
 	background-image: url('resources/img/lite_background-tile.png');
 }
 
+body>header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 150px;
+	background-color: #91D1EB;
+}
+
 body>header h1>a {
     color:#564b47;
     text-decoration: none;
@@ -78,18 +87,24 @@ a:hover {
 }
 
 main {
-
+	position: absolute;
+	top: 180px;
+	left: 230px;
 	width: 75%;
 	min-width: 600px;
-	margin-left: 150px;
+	/*margin-left: 150px;*/
 	display: block;
 	background-color: white;
 }
 
 nav {
-	float: left;
+	position: absolute;
+	top: 180px;
+	/*float: left;*/
 	width: 150px;
 	min-width: 150px;
+	background-color: #EBAB91;
+	padding-left: 15px;
 }
 
 nav a,
